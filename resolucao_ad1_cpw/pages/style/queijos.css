@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body{
+    background-color: #EEDDAA;
+    }
+.imgLogo{
+    border-bottom: 4px solid #3366BB;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+header{
+    display: block;
+    margin-bottom: 1px;
+    }
+nav{
+    display: block;
+    width: 20%;
+    float: left;
+}
+ul{
+    line-height: 200%;
+    color: #3366BB;
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: #3366BB;
+}
+
+article{
+    float: right;
+    line-height: 140%;
+    color: #3366BB;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgQueijo{
+    width: 60px;
+    height: 44px;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid;
+    margin-top: 6px;
+    font-size: 15px;
+    background-color: #FFFFBB;
+    color: #114499;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.colummName{
+    border: 2px solid #000000;
+    padding: 6px 12px 6px 12px;
+    color: #EEEE00;
+    align-items: center;
+    background-color: #887733;
+}
+.titleTable{
+    border: 2px solid #000000;
+    padding: 6px 12px 6px 12px;
+    color: #EEEE00;
+    align-items: center;
+    background-color: #887733;
+}
+td{
+    border: 2px solid #000000;
+    padding: 6px 12px 6px 12px;
+}
+th{
+    border-left: 2px solid #000000;
+}
+R1{
+    color: #CC0000;
+}
+.coutryType{
+    color: #222222;
+    background-color: #887733;
+}
