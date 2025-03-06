@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body{
+    background-color: #EEDDAA;
+    }
+.imgLogo{
+    border-bottom: 4px solid #3366BB;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+header{
+    display: block;
+    margin-bottom: 1px;
+    }
+nav{
+    display: block;
+    width: 20%;
+    float: left;
+}
+ul{
+    line-height: 200%;
+    color: #3366BB;
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: #3366BB;
+}
+
+article{
+    float: right;
+    line-height: 140%;
+    color: #3366BB;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+section{
+    display: block;
+    width: 70%;
+    float: right;
+}
+
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.png" type="image/x-icon">
+    <title>Canastrão Queijos</title>
+    <link rel="stylesheet" href="style/pedidos.css">
+</head>
+<body>
+    <header>
+            <img class="imgLogo" src="Imagens/CanastraoLogoTopo.png" alt="Canastrão Queijos">
+            <article class="ender">
+                <address>
+                    AV. Gorgonzola,235
+                </address>
+                <address>
+                    Tel:(21) 91235-1235
+                </address>
+                <address>
+                    contato@canastrao.com.br
+                </address>
+            </article>
+    </header>
+    <nav class="apres">
+        <ul>
+            <li><a href="home.html">Apresentação</a></li>
+            <li><a href="#">Queijos</a></li>
+            <li><a href="harmonizacao.html">Harmonização</a></li>
+            <li><a href="#">Pedidos</a></li>
+            
+        </ul>
+    </nav>
+    <section>
+        <div class="compras">
+            <div>
+                <h1>Compras</h1>
+            </div>
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="name">Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="endereco">Endereço</label>
+                        <textarea name="endereco" id="endereco"></textarea>
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" id="telefone">
+                    </div>
+                    <div>
+                        <label for="cel">Celular</label>
+                        <input type="tel" name="celular" id="cel">
+                    </div>
+                    <div>
+                        <label for="genero">Genero</label>
+                        <input type="checkbox" name="genero" id="genero">
+                    </div>
+                    <div>
+                        <label for="nascimento">Nascimento</label>
+                        <input type="date" name="nascimento" id="nascimento">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <select name="produtos" id="produtos"  readonly>
+                            <optgroup>
+                                <option value="nulo"></option>
+                            </optgroup>
+                            <optgroup label="Nacionais">
+                                <option value="canastra">Canastra(500g)</option>
+                                <option value="minas">Queijo Minas(400g)</option>
+                                <option value="coalho">Queijo Coalho(500g)</option>
+                            </optgroup>
+                            <optgroup label="Internacionais">
+                                <option value="gorgonzola">Gorgonzola</option>
+                                <option value="brie">Quejio Brie</option>
+                            </optgroup>
+                        </select>
+                        <button id="Comprar">Comprar</button>
+                    </div>
+                    <div>
+                        <textarea name="comentario" id="comentario" readonly></textarea>
+                    </div>
+                    <div>
+                        <label for="valor">Valor R$</label>
+                    </div>
+                    <fieldset>
+                        <div>
+                            <label for="bandeira">Bandeira</label>
+                            <input type="checkbox" name="bandeira" id="bandeira">
+                        </div>
+                        <div>
+                            <label for="valiedade">Validade</label>
+                            <input type="date" name="gata" id="data">
+                        </div>
+                        <div>
+                            <label for="numero">Número</label>
+                            <input type="number" name="numero" id="numero">
+                        </div>
+                    </fieldset>
+                </fieldset>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
